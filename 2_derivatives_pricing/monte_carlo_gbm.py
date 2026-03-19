@@ -13,4 +13,3 @@ def monte_carlo_call(S, K, r, sigma, T, n_sims=10000):
 if __name__ == "__main__":
     price = monte_carlo_call(100, 100, 0.05, 0.2, 1)
     print("Monte Carlo call price:", price)
-``
